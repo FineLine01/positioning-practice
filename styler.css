@@ -1,0 +1,39 @@
+body {
+    max-width: 1440px;
+    font-family: 'Comfortaa', cursive;
+}
+
+.container {
+    background: rgb(239, 139, 76);
+    width: 35vw;
+    height: 300px;
+    margin: 0 auto;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+}
+
+.hei {
+    position: absolute;
+    background: rgb(191, 191, 244) ;
+    top: 70px;
+    left: 45px;
+    padding: 45px;
+    z-index: 0;
+}
+.hey {
+    position: absolute;
+    background: rgb(235, 176, 176) ;
+    top: 10px;
+    left: 185px;
+    padding: 35px;
+    z-index: 1;
+}
+.hai {
+    position: absolute;
+    background: rgb(235, 239, 194) ;
+    top: 70px;
+    right: 45px;
+    padding: 45px;
+    z-index: 0;
+}
